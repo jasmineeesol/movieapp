@@ -1,0 +1,60 @@
+body {
+    height: 100vh; /* Full height */
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(to bottom, #f1967f, #eea56c); /* Ombre effect */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align at the top */
+    font-family: 'Afacad Flux', sans-serif; /* Apply the font */
+}
+
+img {
+    height: 400px; /* Set image height */
+    margin-top: 20px; /* Optional: add some space from the top */
+}
+
+/* Dropdown menu */
+select {
+    margin-top: -30px; /* Adjusted margin to move it closer to the image */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Increase font size */
+    font-family: 'Afacad Flux', sans-serif; /* Apply the font to dropdown */
+    width: 300px; /* Set width of the dropdown */
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Submit button */
+button {
+    margin-top: 10px; /* Space between dropdown and button */
+    padding: 10px 15px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #f1967f; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #eea56c; /* Slightly darker color on hover */
+}
+
+/* Output box */
+.output-box {
+    margin-top: 20px; /* Space between dropdown and output box */
+    width: 550px; /* Increased width of the output box */
+    height: 300px; /* Increased height of the output box */
+    background-color: rgb(178, 218, 221); /* Background color */
+    border: 1px solid #ccc; /* Light gray border */
+    display: flex; /* Use Flexbox for inner content */
+    align-items: flex-start; /* Align content at the top */
+    justify-content: center; /* Center content horizontally */
+    font-family: 'Afacad Flux', sans-serif; /* Apply the font */
+    color: black; /* Text color */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    padding: 20px; /* Add padding inside the output box */
+    border-radius: 12px; /* Rounded corners */
+}
